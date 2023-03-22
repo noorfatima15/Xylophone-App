@@ -12,17 +12,13 @@ class HomeScreen extends StatelessWidget {
         child: ListView(
           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 40),
           children: const [
-            PianoNote(),
-            PianoNote(color: Colors.red),
-            PianoNote(
-              color: Colors.purple,
-            ),
-            PianoNote(color: Colors.pink),
-            PianoNote(
-              color: Colors.pinkAccent,
-            ),
-            PianoNote(color: Colors.yellow),
-            PianoNote(color: Colors.cyan),
+            PianoNote(noteNumber: 1),
+            PianoNote(color: Colors.red, noteNumber: 2),
+            PianoNote(color: Colors.purple, noteNumber: 3),
+            PianoNote(color: Colors.pink, noteNumber: 4),
+            PianoNote(color: Colors.pinkAccent, noteNumber: 5),
+            PianoNote(color: Colors.yellow, noteNumber: 6),
+            PianoNote(color: Colors.cyan, noteNumber: 7),
           ],
         ),
       ),
